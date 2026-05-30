@@ -35,9 +35,12 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
+  overflow-x: hidden;
+  max-width: 100%;
   background-color: var(--color-night);
   color: var(--color-ink);
   -webkit-font-smoothing: antialiased;

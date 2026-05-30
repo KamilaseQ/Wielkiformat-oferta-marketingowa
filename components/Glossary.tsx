@@ -27,11 +27,6 @@ export function Glossary() {
                     sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
                     className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                   />
-                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-night/90 via-night/40 to-transparent px-4 pb-3 pt-10">
-                    <span className="text-xs font-medium text-white/90">
-                      {item.mockupLabel}
-                    </span>
-                  </div>
                 </div>
                 <div className="flex flex-1 flex-col p-5">
                   <h3 className="font-semibold text-ink">{item.term}</h3>

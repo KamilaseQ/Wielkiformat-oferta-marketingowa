@@ -218,7 +218,7 @@ export const PACKAGES: Package[] = [
     supports: [
       "Pełne pokrycie kanałów — gdziekolwiek klient szuka, Wielki Format już tam jest.",
       "Artur staje się rozpoznawalną twarzą i autorytetem branży.",
-      "LinkedIn i X budują wizerunek eksperta i domykają duże rozmowy B2B.",
+      "LinkedIn i X budują wizerunek Artura jako eksperta i profesjonalisty w świecie biznesu.",
       "Długie filmy spinają przekaz, więc marka wygląda spójnie i profesjonalnie na każdej platformie.",
       "Google i cytowania łapią klientów spoza social mediów — także tych, którzy dopiero szukają reklamy zewnętrznej.",
       "Codzienny rytm treści buduje zaufanie i sympatię — markę, którą ludzie lubią i polecają.",
@@ -286,7 +286,7 @@ export const GLOSSARY: GlossaryItem[] = [
   {
     term: "LinkedIn (marka osobista)",
     definition:
-      "Sieć zawodowa. Buduje wizerunek Artura jako eksperta i pomaga domykać rozmowy B2B.",
+      "Platforma świata biznesu. Buduje profesjonalny wizerunek Artura jako eksperta.",
     mockupLabel: "Przykład posta LinkedIn",
     image: "/images/glossary/linkedin-personal-brand.png",
     imageAlt: "Podgląd profesjonalnego posta z fotografią realizacji billboardowej",

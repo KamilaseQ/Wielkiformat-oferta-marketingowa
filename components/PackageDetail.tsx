@@ -1,8 +1,7 @@
 "use client";
 
-import { Check, Target, Wrench, Sparkles, Network, Phone } from "lucide-react";
+import { Check, Target, Wrench, Sparkles, Network } from "lucide-react";
 import type { Package } from "@/lib/data";
-import { CONTACTS } from "@/lib/data";
 import { ResponsiveDialog } from "@/components/ui/responsive-dialog";
 import { EcosystemDiagram } from "@/components/EcosystemDiagram";
 import { cn } from "@/lib/utils";
@@ -92,19 +91,6 @@ export function PackageDetail({ pkg, open, onOpenChange }: PackageDetailProps) {
           <EcosystemDiagram nodes={pkg.ecosystem} />
         </Block>
       )}
-
-      <a
-        href={`tel:${CONTACTS[0].phone}`}
-        className={cn(
-          "mt-2 inline-flex w-full items-center justify-center gap-2 rounded-xl px-5 py-3 font-semibold transition",
-          isGold
-            ? "bg-gold-400 text-night hover:bg-gold-300"
-            : "bg-brand-500 text-white hover:bg-brand-400",
-        )}
-      >
-        <Phone className="h-4 w-4" />
-        Porozmawiajmy o tym wariancie
-      </a>
     </ResponsiveDialog>
   );
 }

@@ -1,8 +1,7 @@
 "use client";
 
 import { motion, type Variants } from "framer-motion";
-import { Crown, ArrowDown, Phone } from "lucide-react";
-import { CONTACTS } from "@/lib/data";
+import { Crown, ArrowDown } from "lucide-react";
 
 const EASE = [0.22, 1, 0.36, 1] as [number, number, number, number];
 
@@ -59,7 +58,7 @@ export function Hero() {
           initial="hidden"
           animate="show"
           custom={3}
-          className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center"
+          className="mt-10 flex"
         >
           <a
             href="#oferta"
@@ -67,13 +66,6 @@ export function Hero() {
           >
             Zobacz pakiety
             <ArrowDown className="h-4 w-4" />
-          </a>
-          <a
-            href={`tel:${CONTACTS[0].phone}`}
-            className="inline-flex items-center justify-center gap-2 rounded-xl border border-border px-6 py-3.5 font-semibold text-ink transition hover:bg-white/5"
-          >
-            <Phone className="h-4 w-4" />
-            Szybki kontakt
           </a>
         </motion.div>
       </div>

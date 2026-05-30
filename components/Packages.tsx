@@ -26,9 +26,13 @@ export function Packages() {
         />
       </Reveal>
 
-      <div className="mt-16 grid items-start gap-6 lg:grid-cols-3">
+      <div className="mt-16 grid items-start gap-8 lg:grid-cols-3 lg:gap-6">
         {PACKAGES.map((pkg, i) => (
-          <Reveal key={pkg.id} delay={i * 0.1}>
+          <Reveal
+            key={pkg.id}
+            delay={i * 0.1}
+            className="mx-auto w-full max-w-xs sm:max-w-sm lg:max-w-none"
+          >
             <PackageCard pkg={pkg} onOpen={() => openPackage(pkg)} />
           </Reveal>
         ))}
