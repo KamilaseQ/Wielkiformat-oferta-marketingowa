@@ -246,6 +246,8 @@ export interface GlossaryItem {
   definition: string;
   /** Etykieta pod placeholderem mockupu */
   mockupLabel: string;
+  image: string;
+  imageAlt: string;
 }
 
 export const GLOSSARY: GlossaryItem[] = [
@@ -254,48 +256,64 @@ export const GLOSSARY: GlossaryItem[] = [
     definition:
       "Krótki, pionowy film (15–60 s). Główny format zasięgowy na Instagramie, TikToku i Facebooku.",
     mockupLabel: "Przykład rolki",
+    image: "/images/glossary/reel.png",
+    imageAlt: "Podgląd pionowej rolki z przyciskami reakcji po prawej stronie",
   },
   {
     term: "Rolka natywna",
     definition:
       "Rolka zrobiona „pod platformę” — wygląda jak naturalny content, nie jak reklama. Lepiej się rozchodzi.",
     mockupLabel: "Przykład rolki natywnej",
+    image: "/images/glossary/native-reel.png",
+    imageAlt: "Podgląd naturalnej rolki nagranej na placu montażu billboardu",
   },
   {
     term: "Relacja / story",
     definition:
       "Krótka treść znikająca po 24 h. Buduje codzienny, bezpośredni kontakt z odbiorcą.",
     mockupLabel: "Przykład story",
+    image: "/images/glossary/story.png",
+    imageAlt: "Podgląd relacji z paskami czasu u góry i polem odpowiedzi na dole",
   },
   {
     term: "Długi format",
     definition:
       "Dłuższy materiał (np. na YouTube). Buduje autorytet i pomaga utrzymać spójny przekaz między platformami.",
     mockupLabel: "Przykład filmu YouTube",
+    image: "/images/glossary/long-form-youtube.png",
+    imageAlt: "Podgląd strony długiego filmu z odtwarzaczem i listą rekomendacji",
   },
   {
     term: "LinkedIn (marka osobista)",
     definition:
       "Sieć zawodowa. Buduje wizerunek Artura jako eksperta i pomaga domykać rozmowy B2B.",
     mockupLabel: "Przykład posta LinkedIn",
+    image: "/images/glossary/linkedin-personal-brand.png",
+    imageAlt: "Podgląd profesjonalnego posta z fotografią realizacji billboardowej",
   },
   {
     term: "X (głos ekspercki)",
     definition:
       "Krótkie opinie i komentarze do branży. Buduje obecność ekspercką i osobisty głos.",
     mockupLabel: "Przykład posta na X",
+    image: "/images/glossary/x-expert-voice.png",
+    imageAlt: "Podgląd krótkiego eksperckiego wpisu w serwisie mikroblogowym",
   },
   {
     term: "Lokalne cytowania",
     definition:
       "Wzmianki o firmie na innych stronach. Im więcej, tym wyżej w Google — także poza social mediami.",
     mockupLabel: "Przykład cytowania",
+    image: "/images/glossary/local-citations.png",
+    imageAlt: "Podgląd lokalnych wpisów katalogowych wspierających widoczność firmy",
   },
   {
     term: "Wizytówka Google",
     definition:
       "Profil firmy w Google i Mapach. Pierwsze, co widzi klient szukający reklamy zewnętrznej.",
     mockupLabel: "Przykład wizytówki Google",
+    image: "/images/glossary/google-business-profile.png",
+    imageAlt: "Podgląd wizytówki firmy z oceną, danymi kontaktowymi i mapą",
   },
 ];
 
