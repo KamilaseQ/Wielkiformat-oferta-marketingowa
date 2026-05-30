@@ -50,7 +50,7 @@ export function Hero() {
         >
           Wielki Format ma billboardy, procesy i klientów, którzy dzwonią z numeru na
           tablicy. Mocny fundament. Teraz ten sam zasięg możesz mieć w internecie — i
-          budować silną pozycję w Mazowieckiem, a z czasem może i w całej Polsce.
+          budować silną pozycję w Mazowieckiem, a z czasem w całej Polsce.
         </motion.p>
 
         <motion.div

@@ -76,16 +76,16 @@ export const MARKET_STATS: MarketStat[] = [
     value: 61.1,
     suffix: "%",
     decimals: 1,
-    title: "marketingu to kanały cyfrowe",
+    title: "budżetu marketingowego trafia do kanałów cyfrowych",
     description:
-      "Większość budżetów marketingowych jest już online. Widoczność nie kończy się na jednym medium — kanały się wzmacniają.",
+      "Firmy coraz częściej łączą widoczność offline z obecnością online. Billboard przyciąga uwagę w przestrzeni miasta, a internet buduje zaufanie i pokazuje skalę działania.",
     source: "Gartner",
   },
   {
     value: 0,
     title: "Wniosek dla Wielkiego Formatu",
     description:
-      "Sprzedajesz widoczność innym firmom — a własnej online jeszcze nie zbudowałeś. To jedyny kanał, którego Wielki Format nie zagospodarował. Naturalny kierunek: najpierw mocna pozycja w Mazowieckiem, a z czasem może i w całej Polsce.",
+      "Skoro firmy przeznaczają znaczące budżety na marketing, Wielki Format ma przestrzeń, żeby mocniej zawalczyć o pozycję pierwszego wyboru w województwie mazowieckim.",
     conclusion: true,
   },
 ];

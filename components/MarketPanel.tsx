@@ -15,7 +15,7 @@ export function MarketPanel() {
       <Reveal>
         <SectionHeading
           eyebrow="Rynek"
-          title="Marketing to nie dodatek. To budżet, który firmy już wydają."
+          title="Marketing to nie dodatek. To podstawa działania na szeroką skalę."
           subtitle="Kilka liczb dla kontekstu — żeby pokazać, gdzie toczy się gra."
         />
       </Reveal>
